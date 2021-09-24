@@ -1,0 +1,77 @@
+
+/* 
+
+@author = Deep Patel
+@ID = 000818379
+@Desc = css file to decorate
+
+*/
+body {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #f1f1f1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+*{
+	margin: auto;
+	box-sizing: border-box;
+}
+
+
+.add{
+	width: 100%;
+	padding: 10px;
+	background-color:#6699ff;
+	border:none;
+	border-radius: 5px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+p {
+	font-size: 20px;
+	margin: 0px;
+}
+
+table {
+	border-collapse: collapse;
+	margin: 10px;
+	background-color: white;
+}
+
+tr, th, td  {
+	text-align: center;
+	border: 1px solid black;
+}
+
+th, td {
+	width: 290px;
+	padding: 5px;
+}
+
+
+
+#myForm {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-items: center;
+	border: 1px solid black;
+}
+
+#mydiv {
+	display: block;
+	background-color: white;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+#submit {
+	padding: 5px;
+	grid-column-start: 2;
+}
